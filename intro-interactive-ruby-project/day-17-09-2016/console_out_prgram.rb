@@ -1,5 +1,5 @@
 
+#puts("Hello World")
+#puts("Hello is the name of the Alexandra girl's friend")
 
-puts("Hello World")
-
-puts("Hello is the name of the Alexda girl's friend")
+puts('My wife\'s name is Jane')
