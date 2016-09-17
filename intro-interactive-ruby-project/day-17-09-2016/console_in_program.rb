@@ -6,7 +6,6 @@ ship_name = gets().chomp().to_s
 
 
 
-
 ship_reg_number = ship_name
 
 puts(ship_reg_number)
