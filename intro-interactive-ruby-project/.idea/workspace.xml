@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9fb9ef-04bf-4e1f-8c72-1a9c2bdf20a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-18-09-2016/convert_from_one_data_type_another.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-18-09-2016/metro_calculator.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-18-09-2016/metro_code_1.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-18-09-2016/operations_in_ruby.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/intro-interactive-ruby-project.iml" afterPath="$PROJECT_DIR$/.idea/intro-interactive-ruby-project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -22,6 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/intro-interactive-ruby-project@console_in_program.coverage" NAME="console_in_program Coverage Results" MODIFIED="1474122589183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-17-09-2016" MODULE_NAME="intro-interactive-ruby-project" />
     <SUITE FILE_PATH="coverage/intro-interactive-ruby-project@console_out_prgram.coverage" NAME="console_out_prgram Coverage Results" MODIFIED="1474121779273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-17-09-2016" MODULE_NAME="intro-interactive-ruby-project" />
+    <SUITE FILE_PATH="coverage/intro-interactive-ruby-project@operations_in_ruby.coverage" NAME="operations_in_ruby Coverage Results" MODIFIED="1474220865844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-18-09-2016" MODULE_NAME="intro-interactive-ruby-project" />
     <SUITE FILE_PATH="coverage/intro-interactive-ruby-project@convert_from_one_data_type_another.coverage" NAME="convert_from_one_data_type_another Coverage Results" MODIFIED="1474219025127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-18-09-2016" MODULE_NAME="intro-interactive-ruby-project" />
     <SUITE FILE_PATH="coverage/intro-interactive-ruby-project@metro_code_1.coverage" NAME="metro_code_1 Coverage Results" MODIFIED="1474219361366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-18-09-2016" MODULE_NAME="intro-interactive-ruby-project" />
     <SUITE FILE_PATH="coverage/intro-interactive-ruby-project@metro_calculator.coverage" NAME="metro_calculator Coverage Results" MODIFIED="1474219818726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-18-09-2016" MODULE_NAME="intro-interactive-ruby-project" />
@@ -65,11 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ruby_syntax_and_basic_rules.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ruby_syntax_and_basic_rules.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-18-09-2016/ruby_syntax_and_basic_rules.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47058824">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operations_in_ruby.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day-18-09-2016/operations_in_ruby.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6865672">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -127,6 +136,7 @@
         <option value="$PROJECT_DIR$/day-18-09-2016/convert_from_one_data_type_another.rb" />
         <option value="$PROJECT_DIR$/day-18-09-2016/metro_code_1.rb" />
         <option value="$PROJECT_DIR$/day-18-09-2016/metro_calculator.rb" />
+        <option value="$PROJECT_DIR$/day-18-09-2016/operations_in_ruby.rb" />
       </list>
     </option>
   </component>
@@ -213,27 +223,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.metro_calculator">
-    <configuration default="false" name="console_out_prgram" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="intro-interactive-ruby-project" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/day-17-09-2016" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/day-17-09-2016/console_out_prgram.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.operations_in_ruby">
     <configuration default="false" name="console_in_program" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="intro-interactive-ruby-project" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -311,6 +301,26 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/day-18-09-2016/metro_calculator.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="operations_in_ruby" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="intro-interactive-ruby-project" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/day-18-09-2016" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/day-18-09-2016/operations_in_ruby.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -442,19 +452,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.console_out_prgram" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.console_in_program" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.convert_from_one_data_type_another" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.metro_code_1" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.metro_calculator" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.console_in_program" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.convert_from_one_data_type_another" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.metro_code_1" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.metro_calculator" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.operations_in_ruby" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.metro_calculator" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.metro_code_1" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.convert_from_one_data_type_another" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.console_in_program" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.console_out_prgram" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.operations_in_ruby" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.metro_calculator" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.metro_code_1" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.convert_from_one_data_type_another" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.console_in_program" />
       </list>
     </recent_temporary>
   </component>
@@ -489,11 +499,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -629,8 +639,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day-18-09-2016/ruby_syntax_and_basic_rules.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47058824">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-18-09-2016/operations_in_ruby.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6865672">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding />
         </state>
       </provider>
